@@ -1,0 +1,77 @@
+ body{
+    font-family: "Montserrat", sans-serif;
+    background-color: black;}
+
+ h1{
+    font-size: 80px;
+    color: white;
+    background: linear-gradient(90deg, rgb(107, 0, 107) 0%, rgb(255, 102, 0) 50%, rgb(255, 0, 132) 100%);
+    padding: 80px;
+    text-align: center;}
+
+h2{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border: 2px dashed rgb(255, 255, 255);
+    border-radius: 100px;
+    box-shadow: 5px 5px 5px 0px rgba(255, 0, 132, 0.35);
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+h3{
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;}
+
+p{
+   color: white;
+    text-align: justify;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;}
+
+    ul{
+    color: white;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px; 
+    }
+/*Position, top, left, right, bottom, id menú, overflow*/
+        #navbar {
+            padding: 20px;
+            position: sticky;
+            top: 0;
+            overflow: hidden;
+            background: linear-gradient(90deg, rgb(107, 0, 107) 0%, rgb(255, 102, 0) 50%, rgb(255, 0, 132) 100%);
+            text-align: center;
+        }
+ 
+        a{
+            color: #f2f2f2;
+            padding: 14px;
+            font-size: 17px;
+        }
+
+        /*Position, top, left, right, bottom, id menú, overflow*/
+        .static {
+            width: auto;
+            height: 100px;
+            position: static;
+            background: linear-gradient(90deg, rgb(107, 0, 107) 0%, rgb(255, 102, 0) 50%, rgb(255, 0, 132) 100%);
+            text-align: center;
+        }
+ 
+        .fixed {
+            width: 100px;
+            height: 50px;
+            position: fixed;
+            bottom: 100px;
+            right: 0px;
+            text-align: center;
+            background-color: rgb(255, 4, 142);
+        }
